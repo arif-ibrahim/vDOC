@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-size: 16px;
+    line-height: 20px;
+}
+
+/*===================================   header style      =================================*/
+
+.header {
+    background: #17c67a;
+    padding: 20px 0;
+}
+.header .navbar {
+    padding: 0;
+}
+.header .navbar .logo {
+    color: #fff;
+}
+.header .navbar .logo img {
+}
+.header .navbar .navbar-toggler {
+}
+.header .navbar .navbar-toggler i {
+}
+.header .navbar .mainMenu {
+}
+.header .navbar .mainMenu .navbar-nav {
+    align-items: center;
+}
+.header .navbar .mainMenu .navbar-nav .nav-item {
+    margin-right: 50px;
+}
+.header .navbar .mainMenu .navbar-nav .nav-item:last-child {
+    margin-right: 0;
+}
+.header .navbar .mainMenu .navbar-nav .nav-item .nav-link {
+    color: #fff;
+    font-size: 16px;
+    line-height: 20px;
+    padding: 0;
+}
+
+/*===================================   header style      =================================*/
