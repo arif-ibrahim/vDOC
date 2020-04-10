@@ -11,9 +11,9 @@ body {
 h3{
     color: #283d50;
 }
-.container{
+/* .container{
     max-width: 1600px;
-}
+} */
 
 /*===================================   header style      =================================*/
 
@@ -214,7 +214,7 @@ h3{
 }
 
 .howitworks .howworksheader{
-    
+    margin-bottom: 20px;
 }
 .howitworks .howworksheader .top-header{
     
@@ -229,6 +229,20 @@ h3{
 .howitworks .howworksheader .bottom-header{
     margin-top: -20px;
 }
+
+.howitworks .main-image img{
+    max-width: 75%;
+}
+.howitworks img{
+    margin-bottom: 30px;
+}
+.howitworks .how-works-body-heading{
+    margin-bottom: 20px;
+    color: #F69F3C;
+    font-weight: 500;
+    font-size: 20px;
+}
+ 
 
 /* ==================================   End How it works    ================================= */
 
