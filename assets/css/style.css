@@ -64,7 +64,7 @@ body {
     
 }
 .header-about .icon img{
-    width: 20px;
+    width: 27px;
     margin-top: -10px;
 }
 .about-image img{
@@ -91,7 +91,7 @@ body {
 }
 
 .services .service-header img{
-    width: 20px;
+    width: 27px;
     margin-top: -81px;
     margin-left: 186px;
 }
@@ -102,14 +102,19 @@ body {
     background-color: bisque;
     display: flex;
     flex-direction: column;
-     
+    border-radius: 5px;
+    -webkit-box-shadow: 9px 10px 6px -5px rgba(0,0,0,0.06);
+    -moz-box-shadow: 9px 10px 6px -5px rgba(0,0,0,0.06);
+    box-shadow: 9px 10px 6px -5px rgba(0,0,0,0.06);
+    
 }
 .services .service img{
-    width: 75px;
+    width: 140px;
     margin: 0 auto;
 }
 .services .service span{
     margin: 0 auto;
+    text-align: center;
 }
 
 /* ==================================   our services style    ================================= */
