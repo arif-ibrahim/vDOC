@@ -8,11 +8,32 @@ body {
     line-height: 20px;
 }
 
+.container {
+    max-width: 1600px;
+}
+
 /*===================================   header style      =================================*/
 
 .header {
-    background: #17c67a;
-    padding: 20px 0;
+    padding: 30px 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 10;
+    transition: all 0.5s;
+}
+
+.header.fixedMenu{
+    background: #1bac93; 
+    position: fixed;
+    padding: 15px;
+    -ms-box-shadow: 0 4px 6px 0 rgba(12,0,46,.06);
+    box-shadow: 0 4px 6px 0 rgba(12,0,46,.06);
+}
+
+.header.fixedMenu .navbar .logo img{
+    max-width: 100px;
 }
 .header .navbar {
     padding: 0;
@@ -21,6 +42,9 @@ body {
     color: #fff;
 }
 .header .navbar .logo img {
+    transition: all 0.5s;
+    max-width: 135px;
+    width: 100%;
 }
 .header .navbar .navbar-toggler {
 }
@@ -39,42 +63,105 @@ body {
 }
 .header .navbar .mainMenu .navbar-nav .nav-item .nav-link {
     color: #fff;
-    font-size: 16px;
+    font-size: 18px;
     line-height: 20px;
     padding: 0;
+    font-weight: 500;
 }
 
 /*===================================   header style      =================================*/
 
+/* ==================================   bannerWrap style    ================================= */
+.bannerWrap {
+    background: url(../img/1.Slider-background-01.png) no-repeat scroll top left / cover;
+    padding: 100px 0 340px;
+}
+
+.bannerContent {
+}
+.bannerContent .bannerTitle {
+    font-size: 56px;
+    line-height: 66px;
+    color: #fff;
+    margin-bottom: 50px;
+}
+.bannerContent .bannerTitle span {
+    color: #fbd65d;
+}
+.bannerContent .bannerPara {
+    font-size: 30px;
+    line-height: 40px;
+    color: #fff;
+    margin-bottom: 60px;
+}
+.bannerContent .btnGroup {
+    display: flex;
+}
+.bannerContent .btnGlob {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    line-height: 22px;
+    background: #fff;
+    padding: 0 30px;
+    height: 60px;
+    font-weight: 500;
+    color: #16a88e;
+    text-decoration: none;
+    border-radius: 30px;
+    transition: all 0.5s;
+}
+.bannerContent .btnGlob.btnPatient {
+    margin-right: 30px;
+    border: 2px solid #fff;
+}
+.bannerContent .btnGlob.btnPatient:hover {
+    background: transparent;
+    color: #fff;
+}
+.bannerContent .btnGlob.btnDoctor {
+    border: 2px solid #fbd65d;
+    background: #fbd65d;
+    color: #333;
+}
+.bannerContent .btnGlob.btnDoctor:hover {
+    background: transparent;
+    color: #fbd65d;
+}
+.bannerContent .bannerImg {
+}
+.bannerContent .bannerImg img {
+}
+
+/*===================================   bannerWrap style      =================================*/
+
 /* ==================================   about us style    ================================= */
 
-.about{
+.about {
     margin-top: 20px;
 }
-.header-about{
+.header-about {
     margin-bottom: 20px;
     display: flex;
     flex-direction: row;
 }
 
-.header-about .heading-about{
-    
+.header-about .heading-about {
 }
-.header-about .icon{
-    
+.header-about .icon {
 }
-.header-about .icon img{
+.header-about .icon img {
     width: 27px;
     margin-top: -10px;
 }
-.about-image img{
+.about-image img {
     width: 100%;
-    
 }
-.about .body-about{
+.about .body-about {
     margin: 20px 0;
 }
-.about .about-link{
+.about .about-link {
     text-decoration: none;
 }
 
@@ -82,37 +169,35 @@ body {
 
 /* ==================================   our services style    ================================= */
 
-.services{
+.services {
     margin-top: 40px;
 }
 
-.services .service-header{
-
+.services .service-header {
 }
 
-.services .service-header img{
+.services .service-header img {
     width: 27px;
     margin-top: -81px;
     margin-left: 186px;
 }
 
-.services .service{
+.services .service {
     width: 100%;
     height: 200px;
     background-color: bisque;
     display: flex;
     flex-direction: column;
     border-radius: 5px;
-    -webkit-box-shadow: 9px 10px 6px -5px rgba(0,0,0,0.06);
-    -moz-box-shadow: 9px 10px 6px -5px rgba(0,0,0,0.06);
-    box-shadow: 9px 10px 6px -5px rgba(0,0,0,0.06);
-    
+    -webkit-box-shadow: 9px 10px 6px -5px rgba(0, 0, 0, 0.06);
+    -moz-box-shadow: 9px 10px 6px -5px rgba(0, 0, 0, 0.06);
+    box-shadow: 9px 10px 6px -5px rgba(0, 0, 0, 0.06);
 }
-.services .service img{
+.services .service img {
     width: 140px;
     margin: 0 auto;
 }
-.services .service span{
+.services .service span {
     margin: 0 auto;
     text-align: center;
 }
@@ -120,7 +205,7 @@ body {
 /* ==================================   our services style    ================================= */
 
 /*===================================   our partners           ================================= */
-.section-header{
+.section-header {
     margin-top: 66px;
     margin-bottom: 46px;
 }
@@ -132,14 +217,13 @@ body {
     font-weight: 500;
 }
 
-.heading-partners .icon{
-    
+.heading-partners .icon {
 }
-.heading-partners .icon img{
+.heading-partners .icon img {
     width: 20px;
     margin-top: -10px;
 }
-.partner-img{
+.partner-img {
     padding: 64px;
     display: flex;
     justify-content: center;
@@ -151,10 +235,10 @@ body {
 /*===================================   end our partners          ================================= */
 
 /*===================================   footer                    ================================= */
-.footer{
-  background: url('assets/img/22.Slider-01.png');
-  background-size: cover;
-  /** just to fit height of the parent **/
-  height : 100%;  
+.footer {
+    background: url("assets/img/22.Slider-01.png");
+    background-size: cover;
+    /** just to fit height of the parent **/
+    height: 100%;
 }
 /*===================================   end footer                ================================= */
