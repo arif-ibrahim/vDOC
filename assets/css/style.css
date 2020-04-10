@@ -113,3 +113,43 @@ body {
 }
 
 /* ==================================   our services style    ================================= */
+
+/*===================================   our partners           ================================= */
+.section-header{
+    margin-top: 66px;
+    margin-bottom: 46px;
+}
+
+.section-header h3 {
+    font-size: 36px;
+    color: #283d50;
+    text-align: center;
+    font-weight: 500;
+}
+
+.heading-partners .icon{
+    
+}
+.heading-partners .icon img{
+    width: 20px;
+    margin-top: -10px;
+}
+.partner-img{
+    padding: 64px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* overflow: hidden; */
+    background: #fff;
+    height: 160px;
+}
+/*===================================   end our partners          ================================= */
+
+/*===================================   footer                    ================================= */
+.footer{
+  background: url('assets/img/22.Slider-01.png');
+  background-size: cover;
+  /** just to fit height of the parent **/
+  height : 100%;  
+}
+/*===================================   end footer                ================================= */
