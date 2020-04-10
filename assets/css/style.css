@@ -45,3 +45,31 @@ body {
 }
 
 /*===================================   header style      =================================*/
+
+/* ==================================   about us style    ================================= */
+
+.about{
+    margin-top: 20px;
+}
+.header-about{
+    margin-bottom: 20px;
+}
+
+.header-about .heading-about{
+
+}
+.header-about .icon{
+    
+}
+.about-image img{
+    width: 100%;
+    
+}
+.about .body-about{
+    margin: 20px 0;
+}
+.about .about-link{
+    text-decoration: none;
+}
+
+/* ==================================   about us style    ================================= */
