@@ -53,13 +53,19 @@ body {
 }
 .header-about{
     margin-bottom: 20px;
+    display: flex;
+    flex-direction: row;
 }
 
 .header-about .heading-about{
-
+    
 }
 .header-about .icon{
     
+}
+.header-about .icon img{
+    width: 20px;
+    margin-top: -10px;
 }
 .about-image img{
     width: 100%;
@@ -73,3 +79,37 @@ body {
 }
 
 /* ==================================   about us style    ================================= */
+
+/* ==================================   our services style    ================================= */
+
+.services{
+    margin-top: 40px;
+}
+
+.services .service-header{
+
+}
+
+.services .service-header img{
+    width: 20px;
+    margin-top: -81px;
+    margin-left: 186px;
+}
+
+.services .service{
+    width: 100%;
+    height: 200px;
+    background-color: bisque;
+    display: flex;
+    flex-direction: column;
+     
+}
+.services .service img{
+    width: 75px;
+    margin: 0 auto;
+}
+.services .service span{
+    margin: 0 auto;
+}
+
+/* ==================================   our services style    ================================= */
