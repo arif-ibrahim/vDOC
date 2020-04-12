@@ -6,11 +6,33 @@
 body {
     font-size: 16px;
     line-height: 20px;
+    box-sizing: border-box;
+    overflow-x: hidden;
 }
 
 h3{
     color: #283d50;
 }
+
+a.custom-button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+    line-height: 18px;
+    background: #fff;
+    height: 37px;
+    font-weight: 400;
+    color: #504c72;
+    text-decoration: none;
+    border-radius: 30px;
+    transition: all 0.5s;
+    width: 134px;
+}
+.cus-row{
+    margin: 0 15px;
+}
+ 
 /* .container{
     max-width: 1600px;
 } */
@@ -167,6 +189,13 @@ h3{
 }
 .about .about-link {
     text-decoration: none;
+    background: #00C4A4;
+    color: #fff;
+}
+.about .custom-button.about-link:hover{
+    background: transparent;
+    color: #00C4A4;
+    border: 1px solid #00C4A4;
 }
 
 /* ==================================   about us style    ================================= */
@@ -246,6 +275,79 @@ h3{
  
 
 /* ==================================   End How it works    ================================= */
+
+/* ==================================   start our doctors    ================================= */
+
+.our-doctors{
+    margin: 40px 0;
+}
+.our-doctors .doc-background{
+    background-color: #00DDB4;
+    height: 350px;
+    width: 100vw;
+    border-radius: 20px; 
+    padding: 60px 100px 0 50px;
+}
+.our-doctors .doc-background .sub-heading{
+    color: #fff;
+    font-weight: 400;
+    font-size: 16px;
+}
+.our-doctors .doc-background .main-heading{
+    color: #413D66;
+    font-weight: 400;
+    font-size: 28px;
+
+}
+.our-doctors .custom-button.btnviewall:hover {
+    background: transparent;
+    color: #fff;
+    border: 1px solid #fff;
+}
+
+.our-doctors .doc-background .doc-pro{
+    height: 250px;
+    background: #ecf5ff;
+    border-radius: 5px;
+    -webkit-box-shadow: -1px 3px 10px 0px rgba(0,0,0,0.27);
+    -moz-box-shadow: -1px 3px 10px 0px rgba(0,0,0,0.27);
+    box-shadow: -1px 3px 10px 0px rgba(0,0,0,0.27);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    line-height: 27px;
+}
+.our-doctors .doc-background .doc-pro img{
+    width: 120px;
+    height: 120px;
+    border: 5px solid #9FEEDD;
+    border-radius: 100%
+}
+.our-doctors .doc-background .doc-pro .name{
+    color: #F69F3C;
+
+}
+.our-doctors .doc-background .doc-pro .degree{
+    font-size: 12px;
+    color: #00C4A4;
+    font-weight: 500;
+    width: 60px;
+    border-top: 3px solid #D4D4E8;
+    text-align: center;
+}
+.our-doctors .doc-background .doc-pro .dept{
+    color: #8F8DAF;
+    font-size: 12px;
+}
+.our-doctors .doc-background .doc-pro .designation{
+    color: #BDBDDB;
+    font-size: 12px;
+}
+
+/* ==================================   End our doctors   ================================= */
+
+
 
 /*===================================   our partners           ================================= */
 .section-header {
