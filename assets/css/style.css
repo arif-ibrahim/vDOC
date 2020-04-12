@@ -8,6 +8,7 @@ body {
     line-height: 20px;
     box-sizing: border-box;
     overflow-x: hidden;
+    background: #FFFFFF;
 }
 
 h3{
@@ -217,13 +218,13 @@ a.custom-button{
 .services .service {
     width: 100%;
     height: 200px;
-    background-color: bisque;
+    background-color: #FCFCFC;
     display: flex;
     flex-direction: column;
     border-radius: 5px;
-    -webkit-box-shadow: 9px 10px 6px -5px rgba(0, 0, 0, 0.06);
-    -moz-box-shadow: 9px 10px 6px -5px rgba(0, 0, 0, 0.06);
-    box-shadow: 9px 10px 6px -5px rgba(0, 0, 0, 0.06);
+    -webkit-box-shadow: -1px 3px 10px 0px rgba(0,0,0,0.27);
+    -moz-box-shadow: -1px 3px 10px 0px rgba(0,0,0,0.27);
+    box-shadow: -1px 3px 10px 0px rgba(0,0,0,0.27);
 }
 .services .service img {
     width: 140px;
@@ -306,7 +307,7 @@ a.custom-button{
 
 .our-doctors .doc-background .doc-pro{
     height: 250px;
-    background: #ecf5ff;
+    background: #FFFFFF;
     border-radius: 5px;
     -webkit-box-shadow: -1px 3px 10px 0px rgba(0,0,0,0.27);
     -moz-box-shadow: -1px 3px 10px 0px rgba(0,0,0,0.27);
