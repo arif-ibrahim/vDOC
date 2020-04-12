@@ -285,9 +285,9 @@ a.custom-button{
 .our-doctors .doc-background{
     background-color: #00DDB4;
     height: 350px;
-    width: 100vw;
+    /* width: 100vw; */
     border-radius: 20px; 
-    padding: 60px 100px 0 50px;
+    padding: 60px 0 0 50px;
 }
 .our-doctors .doc-background .sub-heading{
     color: #fff;
