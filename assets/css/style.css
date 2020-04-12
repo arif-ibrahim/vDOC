@@ -33,6 +33,11 @@ a.custom-button{
 .cus-row{
     margin: 0 15px;
 }
+.top-section {
+  background: url("../../assets/img/22.Slider-01.png") no-repeat center center;
+  background-size: 100% 100%;
+  padding-top: 300px;
+}
  
 /* .container{
     max-width: 1600px;
@@ -169,7 +174,7 @@ a.custom-button{
     margin-top: 20px;
 }
 .header-about {
-    margin-bottom: 20px;
+    margin: 100px 0px;
     display: flex;
     flex-direction: row;
 }
@@ -484,13 +489,54 @@ hr {
 /*===================================   end footer                ================================= */
 
 
-/**
-    About us page
-**/
+/**=================================================================================
+    Cover Page
+===================================================================================**/
 .about-us{
-    margin-top: 115px;
+    margin-top: 50px;
+}
+.page-cover {
+    padding: 100px 0px;
+    position: relative;
+}
+#cover-about {
+    background: url('../../assets/img/topimg/topabout.jpg') no-repeat center center;
+    background-size: cover;
+}
+#cover-our-doc {
+    background: url('../../assets/img/topimg/to_ourdoc.jpg') no-repeat center center;
+    background-size: cover;
+}
+#cover-faq{
+    background: url('../../assets/img/topimg/top_faq.jpg') no-repeat center center;
+    background-size: cover;
+}
+.layer {
+    background-color: rgba(52, 58, 64, 0.71);
+    position: absolute;
+    top: 0;
+    left: 15px;
+    width: 100%;
+    height: 100%;
+}
+.page-cover h1 {
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 6px;
+}
+.page-cover .breadcrumb {
+    background: none;
 }
 
+.page-cover .breadcrumb {
+    padding: 0px;
+    margin: 0px;
+    font-size: 14px;
+    font-weight: 300;
+}
+/**=================================================================================
+    Cover Page
+===================================================================================**/
 /**
     FAQs Page
 **/
@@ -574,4 +620,60 @@ hr {
     padding:10px 20px; 
     background-color: #ffffff;
 }
+/**
+    our doctor page
+**/
+.our-doc-background {
+    /* background-color: #00DDB4; */
+    height: 100%;
+    width: auto;
+    border-radius: 20px;
+}
+.pad{
+    margin:15px;
+}
+.our-doc-pro{
+    height: 250px;
+    background: #FFFFFF;
+    border-radius: 5px;
+    -webkit-box-shadow: -1px 3px 10px 0px rgba(0,0,0,0.27);
+    -moz-box-shadow: -1px 3px 10px 0px rgba(0,0,0,0.27);
+    box-shadow: -1px 3px 10px 0px rgba(0,0,0,0.27);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    line-height: 27px;
+    margin:45px;
+}
+.our-doc-pro img{
+    width: 120px;
+    height: 120px;
+    border: 5px solid #9FEEDD;
+    border-radius: 100%
+}
+.our-doc-pro .name{
+    color: #F69F3C;
+
+}
+.our-doc-pro .degree{
+    font-size: 12px;
+    color: #00C4A4;
+    font-weight: 500;
+    width: 60px;
+    border-top: 3px solid #D4D4E8;
+    text-align: center;
+}
+.our-doc-pro .dept{
+    color: #8F8DAF;
+    font-size: 12px;
+}
+.our-doc-pro .designation{
+    color: #BDBDDB;
+    font-size: 12px;
+}
+.cus-doc-row {
+    margin: 0 15px;
+}
+
 
