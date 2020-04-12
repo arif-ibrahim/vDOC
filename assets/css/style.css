@@ -33,6 +33,11 @@ a.custom-button{
 .cus-row{
     margin: 0 15px;
 }
+.top-section {
+  background: url("../../assets/img/22.Slider-01.png") no-repeat center center;
+  background-size: 100% 100%;
+  padding-top: 300px;
+}
  
 /* .container{
     max-width: 1600px;
@@ -169,7 +174,7 @@ a.custom-button{
     margin-top: 20px;
 }
 .header-about {
-    margin-bottom: 20px;
+    margin: 100px 0px;
     display: flex;
     flex-direction: row;
 }
@@ -347,6 +352,53 @@ a.custom-button{
 }
 
 /* ==================================   End our doctors   ================================= */
+
+
+/*===================================   FAQ               =================================  */
+.faq-index{
+    margin: 95px 0;
+}
+.faq-index .faq-background{
+    background-color: #00DDB4;
+    height: 100%;
+    width: 100vw;
+    border-radius: 20px; 
+    padding: 60px 100px 5px 50px;
+}
+.faq-index .faq-background .sub-heading{
+    color: #fff;
+    font-weight: 400;
+    font-size: 16px;
+}
+.faq-index .faq-background .main-heading h5{
+    color: #413D66;
+    font-weight: 400;
+    font-size: 28px;
+
+}
+.faq-index .faq-background .faq .panel-default>.panel-heading {
+    color: #fff;
+    background-color: #3A4565;
+    border-color: #3A4565;
+    border-radius: 5px;
+}
+.faq-index .faq-background .panel-body p {
+    color: black;
+    background-color: #ffffff;
+    padding: 13px;
+}
+.custom-button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+    line-height: 18px;
+    background: #fff;
+    height: 37px;
+    font-weight: 400;
+    color: #504c72;
+}
+/*===================================   END FAQ           =================================  */
 
 /* ==================================  start benefits   ================================= */
 
@@ -598,9 +650,191 @@ hr {
 /*===================================   end footer                ================================= */
 
 
-/**
-    About us page
-**/
+/**=================================================================================
+    Cover Page
+===================================================================================**/
 .about-us{
-    margin-top: 115px;
+    margin-top: 50px;
 }
+.page-cover {
+    padding: 100px 0px;
+    position: relative;
+}
+#cover-about {
+    background: url('../../assets/img/topimg/topabout.jpg') no-repeat center center;
+    background-size: cover;
+}
+#cover-our-doc {
+    background: url('../../assets/img/topimg/to_ourdoc.jpg') no-repeat center center;
+    background-size: cover;
+}
+#cover-faq{
+    background: url('../../assets/img/topimg/top_faq.jpg') no-repeat center center;
+    background-size: cover;
+}
+.layer {
+    background-color: rgba(52, 58, 64, 0.71);
+    position: absolute;
+    top: 0;
+    left: 15px;
+    width: 100%;
+    height: 100%;
+}
+.page-cover h1 {
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 6px;
+}
+.page-cover .breadcrumb {
+    background: none;
+}
+
+.page-cover .breadcrumb {
+    padding: 0px;
+    margin: 0px;
+    font-size: 14px;
+    font-weight: 300;
+}
+/**=================================================================================
+    Cover Page
+===================================================================================**/
+/**
+    FAQs Page
+**/
+.faq-section{
+    margin-top: 133px;
+}
+.header-faq {
+    margin: 30px 0px 30px 0px;
+    display: flex;
+    flex-direction: row;
+}
+
+.header-faq .heading-faq {
+}
+.header-faq .icon {
+}
+.header-faq .icon img {
+    width: 27px;
+}
+.faq .panel-title > a:before {
+    float: right !important;
+    font-family: FontAwesome;
+    content: "\f056";
+    padding-right: 5px;
+}
+/*
+.faq .panel-title > a.collapsed:before {
+    float: right !important;
+    content: "\f055";
+}
+*/
+.panel-title a {
+    padding: 13px;
+    color: #fff;
+}
+.panel-body p {
+    color: black;
+    background-color: #0fffff;
+    padding: 13px;
+}
+.faq h2 {
+    color: #ff9800;
+}
+.faq h3 {
+    padding: 25px 0px 25px 0px;
+}
+.faq a {
+    text-decoration: none;
+    display: block;
+}
+.faq .panel-default>.panel-heading {
+    color: #fff;
+    background-color: #00DDB4;
+    border-color: #00DDB4;
+    border-radius: 5px;
+}
+/*
+.faq .panel-default .panel-heading .panel-body p{
+    color: #fff;
+    background-color: #00DDB4;
+    border-color: #00DDB4;
+    border-radius: 5px;
+}
+*/
+.tab-d {
+    margin: 33px 0px 33px 0px;
+}
+.tab-color {
+    padding:10px 20px; 
+    background-color: #00DDB4;
+}
+.tab-color a {
+    text-decoration: none;
+    display: block;
+    color:#fff;
+}
+.tab-color-inactive a {
+    text-decoration: none;
+    display: block;
+    color:#000;
+    padding:10px 20px; 
+    background-color: #ffffff;
+}
+/**
+    our doctor page
+**/
+.our-doc-background {
+    /* background-color: #00DDB4; */
+    height: 100%;
+    width: auto;
+    border-radius: 20px;
+}
+.pad{
+    margin:15px;
+}
+.our-doc-pro{
+    height: 250px;
+    background: #FFFFFF;
+    border-radius: 5px;
+    -webkit-box-shadow: -1px 3px 10px 0px rgba(0,0,0,0.27);
+    -moz-box-shadow: -1px 3px 10px 0px rgba(0,0,0,0.27);
+    box-shadow: -1px 3px 10px 0px rgba(0,0,0,0.27);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    line-height: 27px;
+    margin:45px;
+}
+.our-doc-pro img{
+    width: 120px;
+    height: 120px;
+    border: 5px solid #9FEEDD;
+    border-radius: 100%
+}
+.our-doc-pro .name{
+    color: #F69F3C;
+
+}
+.our-doc-pro .degree{
+    font-size: 12px;
+    color: #00C4A4;
+    font-weight: 500;
+    width: 60px;
+    border-top: 3px solid #D4D4E8;
+    text-align: center;
+}
+.our-doc-pro .dept{
+    color: #8F8DAF;
+    font-size: 12px;
+}
+.our-doc-pro .designation{
+    color: #BDBDDB;
+    font-size: 12px;
+}
+.cus-doc-row {
+    margin: 0 15px;
+}
+
+
