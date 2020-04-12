@@ -8,7 +8,7 @@ body {
     line-height: 20px;
     box-sizing: border-box;
     overflow-x: hidden;
-    background: #FFFFFF;
+    background: #F8FBFC;
 }
 
 h3{
@@ -348,6 +348,105 @@ a.custom-button{
 
 /* ==================================   End our doctors   ================================= */
 
+/* ==================================  start benefits   ================================= */
+
+.benefits{
+    margin-top: 140px;
+}
+.benefits .howworksheader{
+    margin-bottom: 20px;
+}
+.benefits .howworksheader .top-header{
+    
+}
+
+.benefits .howworksheader .top-header img{
+    width: 30px;
+    margin-top: -95px;
+    margin-left: 136px;
+}
+
+.benefits .howworksheader .bottom-header{
+    margin-top: -20px;
+}
+.benefits .btn{
+    color: #4A466D;
+    background: #FFFFFF;
+    padding: 0 35px;
+    font-size: 14px;
+}
+.benefits .btn.btn-first{
+    background: #00DDB4;
+    color: #FFFFFF;
+}
+.benefits .btn:hover{
+    background: #00DDB4;
+    color: #FFFFFF;
+    cursor: auto;
+    border: none;
+}
+.benefits .btn-group{
+    -webkit-box-shadow: 0px 0px 5px 3px rgba(0,0,0,0.03);
+    -moz-box-shadow: 0px 0px 5px 3px rgba(0,0,0,0.03);
+    box-shadow: 0px 0px 5px 3px rgba(0,0,0,0.03);
+    border: none;
+    border-radius: 20px;
+}
+.benefits .btn-group-lg{
+    height: 60px;
+    margin-top: 30px;
+    border-radius: 20px;
+}
+
+/* ==================================   End benefits   ================================= */
+/* ==================================   start facilities   ================================= */
+
+.facilities{
+    margin-top: 45px;
+}
+.facilities .facilities-background{
+    background-color: #FFFFFF;
+    min-height: 350px;
+    border-radius: 20px; 
+    padding: 60px 0 0 50px;
+    -webkit-box-shadow: 0px 0px 5px 3px rgba(0,0,0,0.03);
+    -moz-box-shadow: 0px 0px 5px 3px rgba(0,0,0,0.03);
+    box-shadow: 0px 0px 5px 3px rgba(0,0,0,0.03);
+}
+
+.facilities .facilities-background ul{
+    list-style-type: none;
+    /* list-style-image: url('../img/Group\ 854.png'); */
+    
+}
+.facilities .facilities-background ul li:before {
+    content: '';
+    display: inline-block;
+    height: 30px;
+    width: 30px;
+    background-size: 30px;
+    background-image: url('../img/Group\ 854.png');;
+    background-repeat: no-repeat;
+    margin-right: 15px;
+    vertical-align: middle;
+    
+  }
+.facilities .facilities-background li{
+    margin-bottom: 20px;
+}
+
+.facilities .facilities-background li .cus-style{
+    text-transform: uppercase;
+    color: #F6A51A;
+}
+
+.facilities .facilities-background li .cus-style-sec{
+     
+    color: #F6A51A;
+}
+
+
+/* ==================================   End facilities   ================================= */
 
 
 /*===================================   our partners           ================================= */
