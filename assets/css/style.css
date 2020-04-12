@@ -41,7 +41,8 @@ a.custom-button{
 /*===================================   header style      =================================*/
 
 .header {
-    padding: 30px 0;
+    background: #1bac93;
+    padding: 15px;
     position: absolute;
     top: 0;
     left: 0;
@@ -436,3 +437,11 @@ hr {
     height: 36px;
 }
 /*===================================   end footer                ================================= */
+
+
+/**
+    About us page
+**/
+.about-us{
+    margin-top: 115px;
+}
