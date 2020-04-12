@@ -427,6 +427,7 @@ a.custom-button{
     background-size: 30px;
     background-image: url('../img/Group\ 854.png');;
     background-repeat: no-repeat;
+    background-position: center center;
     margin-right: 15px;
     vertical-align: middle;
     
@@ -445,8 +446,67 @@ a.custom-button{
     color: #F6A51A;
 }
 
-
 /* ==================================   End facilities   ================================= */
+
+/* ==================================   start faq   ================================= */
+
+.faq{
+    margin-top: 100px;
+}
+
+.faq .faq-background{
+    background-color: #00DDB4;
+    min-height: 350px;
+    /* width: 100vw; */
+    border-radius: 20px;
+    padding: 50px 60px;
+}
+
+.faq .faq-background hr{
+     background-color: #81F0DA;
+     margin-bottom: 20px;
+}
+
+.faq .faq-background .top-header{
+    color: #fff;
+    font-weight: 400;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.faq .faq-background .main-header{
+    color: #413D66;
+    font-weight: 400;
+    font-size: 28px;
+    margin-bottom: 25px;
+}
+
+.custom-card-header{
+    background: #6B6895;
+    color: #FFFFFF;
+    border: none;
+    -webkit-box-shadow: 0px 0px 5px 3px rgba(0,0,0,0.03);
+    -moz-box-shadow: 0px 0px 5px 3px rgba(0,0,0,0.03);
+    box-shadow: 0px 0px 5px 3px rgba(0,0,0,0.03);
+}
+.custom-card-header a{
+    color: #FFFFFF;
+}
+
+.custom-card-header a img{
+    width: 17px;
+} 
+
+.custom-card-body{
+    background: #E4FCF7;
+    color: #716886;
+}
+
+
+
+
+
+/* ==================================   End faq   ================================= */
 
 
 /*===================================   our partners           ================================= */
