@@ -9,10 +9,12 @@ body {
     box-sizing: border-box;
     overflow-x: hidden;
     background: #F8FBFC;
+    font-family: 'Nunito','Rubik', sans-serif;
 }
 
 h3{
     color: #283d50;
+    font-weight: 600;
 }
 
 a.custom-button{
@@ -106,25 +108,28 @@ a.custom-button{
 /* ==================================   bannerWrap style    ================================= */
 .bannerWrap {
     background: url(../img/1.Slider-background-01.png) no-repeat scroll top left / cover;
-    padding: 100px 0 340px;
+    padding: 100px 0 270px;
 }
 
 .bannerContent {
 }
 .bannerContent .bannerTitle {
-    font-size: 56px;
-    line-height: 66px;
+    font-size: 36px;
+    line-height: 49px;
     color: #fff;
-    margin-bottom: 50px;
+    margin-bottom: 30px;
+    font-family: 'Rubik';
+    font-weight: 600;
+    margin-top: 20px;
 }
 .bannerContent .bannerTitle span {
     color: #fbd65d;
 }
 .bannerContent .bannerPara {
-    font-size: 30px;
-    line-height: 40px;
+    font-size: 20px;
+    line-height: 32px;
     color: #fff;
-    margin-bottom: 60px;
+    margin-bottom: 40px;
 }
 .bannerContent .btnGroup {
     display: flex;
@@ -133,11 +138,11 @@ a.custom-button{
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: 18px;
+    font-size: 16px;
     line-height: 22px;
     background: #fff;
     padding: 0 30px;
-    height: 60px;
+    height: 52px;
     font-weight: 500;
     color: #16a88e;
     text-decoration: none;
@@ -171,12 +176,13 @@ a.custom-button{
 /* ==================================   about us style    ================================= */
 
 .about {
-    margin-top: 20px;
+    margin-top: -42px;
 }
 .header-about {
-    margin: 100px 0px;
+    margin: 27px 0px;
     display: flex;
     flex-direction: row;
+    font-weight: 600;
 }
 
 .header-about .heading-about {
@@ -218,7 +224,7 @@ a.custom-button{
 .services .service-header img{
     width: 30px;
     margin-top: -95px;
-    margin-left: 193px;
+    margin-left: 199px;
 }
 
 .services .service {
@@ -259,7 +265,7 @@ a.custom-button{
 .howitworks .howworksheader .top-header img{
     width: 30px;
     margin-top: -95px;
-    margin-left: 193px;
+    margin-left: 199px;
 }
 
 .howitworks .howworksheader .bottom-header{
@@ -269,14 +275,15 @@ a.custom-button{
 .howitworks .main-image img{
     max-width: 75%;
 }
-.howitworks img{
+.howitworks .how-body img{
     margin-bottom: 30px;
+    width: 65px;
 }
 .howitworks .how-works-body-heading{
     margin-bottom: 20px;
     color: #F69F3C;
-    font-weight: 500;
-    font-size: 20px;
+    font-weight: 600;
+    font-size: 25px;
 }
  
 
@@ -361,7 +368,7 @@ a.custom-button{
 .faq-index .faq-background{
     background-color: #00DDB4;
     height: 100%;
-    width: 100vw;
+    /* width: 100vw; */
     border-radius: 20px; 
     padding: 60px 100px 5px 50px;
 }
@@ -531,6 +538,7 @@ a.custom-button{
     font-weight: 400;
     font-size: 28px;
     margin-bottom: 25px;
+    line-height: 33px;
 }
 
 .custom-card-header{
@@ -583,7 +591,6 @@ a.custom-button{
     justify-content: center;
     align-items: center;
     /* overflow: hidden; */
-    background: #fff;
     height: 160px;
 }
 /*===================================   end our partners          ================================= */
