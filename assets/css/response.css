@@ -3,20 +3,98 @@
         margin-right: 0;
         line-height: 40px;
     }
-    .our-doctors .doc-background{
-        background-color: #00DDB4;
+    .our-doctors .doc-background {
+        background-color: #00ddb4;
         min-height: 400px;
         /* width: 100vw; */
-        border-radius: 20px; 
+        border-radius: 20px;
         padding: 30px 30px 0 30px;
-         
     }
-    .our-doctors .doc-background .main-heading{
+    .our-doctors .doc-background .main-heading {
         font-size: 20px;
     }
 
-    .our-doctors .hide-elm{
+    .our-doctors .hide-elm {
         visibility: hidden;
     }
+}
 
-  }
+@media (max-width: 767px) {
+    .benefits .btn-group-lg {
+        height: auto;
+        border-radius: 0;
+        -webkit-box-shadow: none;
+        -moz-box-shadow: none;
+        box-shadow: none;
+        display: block;
+    }
+    .benefits .btn {
+        display: inline-block;
+        padding: 10px 20px;
+        margin-bottom: 10px;
+        margin-right: 10px;
+    }
+    .bannerContent .btnGroup {
+        display: block;
+        padding: 0 20px;
+    }
+    .bannerContent .btnGlob.btnPatient {
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
+    .bannerWrap {
+        padding-bottom: 230px;
+    }
+    .services .service {
+        margin-bottom: 50px;
+    }
+    .description {
+        margin-bottom: 30px;
+    }
+    .howitworks .main-image img {
+        max-width: 100%;
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    .facilities .facilities-background li {
+        margin-bottom: 40px;
+    }
+    .facilities .facilities-background {
+        padding: 30px;
+        margin-bottom: 0;
+    }
+    .faq {
+        margin-top: 60px;
+    }
+    .faq .faq-background {
+        padding: 30px;
+        padding-bottom: 50px;
+    }
+    .partner-img {
+        padding: 0;
+        height: auto;
+        margin-bottom: 80px;
+    }
+    .footer {
+        background: #28c6ab;
+    }
+    .footer .section .social {
+        max-width: 160px;
+        padding: 0;
+        margin-right: 30px;
+        float: left;
+    }
+    .col-lg-4.social-links {
+        text-align: center;
+        padding-top: 20px;
+    }
+    .copyright {
+        text-align: center;
+    }
+    .header .navbar .mainMenu .navbar-nav {
+        padding-top: 15px;
+    }
+    .header .navbar .mainMenu .navbar-nav .nav-item {
+        margin-bottom: 10px;
+    }
+}

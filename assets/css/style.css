@@ -48,7 +48,7 @@ a.custom-button{
 /*===================================   header style      =================================*/
 
 .header {
-    background: #1bac93;
+    /* background: #1bac93; */
     padding: 15px;
     position: absolute;
     top: 0;
@@ -108,7 +108,7 @@ a.custom-button{
 /* ==================================   bannerWrap style    ================================= */
 .bannerWrap {
     background: url(../img/1.Slider-background-01.png) no-repeat scroll top left / cover;
-    padding: 100px 0 270px;
+    padding: 170px 0 450px;
 }
 
 .bannerContent {
@@ -176,7 +176,7 @@ a.custom-button{
 /* ==================================   about us style    ================================= */
 
 .about {
-    margin-top: -42px;
+    margin-top: -160px;
 }
 .header-about {
     margin: 27px 0px;
