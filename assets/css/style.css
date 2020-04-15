@@ -48,7 +48,7 @@ a.custom-button{
 /*===================================   header style      =================================*/
 
 .header {
-    /* background: #1bac93; */
+    background: #1bac93;
     padding: 15px;
     position: absolute;
     top: 0;
@@ -101,6 +101,9 @@ a.custom-button{
     line-height: 20px;
     padding: 0;
     font-weight: 500;
+}
+.header .navbar .mainMenu .navbar-nav .nav-item .nav-link:hover {
+     color: #F69F3C;
 }
 
 /*===================================   header style      =================================*/
@@ -217,6 +220,8 @@ a.custom-button{
 .services {
     margin-top: 40px;
 }
+
+
 
 .services .service-header {
 }
@@ -627,6 +632,10 @@ a.custom-button{
     color: #ecf5ff;
     text-decoration: none;
 }
+
+.footer ul a:hover {
+    color: #F69F3C;
+}
 .footer .section .social {
     padding-top: 33px;
     padding-right: 10%;
@@ -634,7 +643,7 @@ a.custom-button{
 
 }
 /*social link*/
-.footer .mobile {;
+.footer .mobile {
     height:100%;
 }
 /*copywrite*/
